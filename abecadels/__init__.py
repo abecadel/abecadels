@@ -5,3 +5,4 @@
 
 def jo():
     print("elo")
+    return False
