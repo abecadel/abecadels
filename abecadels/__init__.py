@@ -1,8 +1,12 @@
-#! /usr/bin/env python
-#
-# Copyright (C) 2018 Michal Jamry
+"""
+Copyright (C) 2018 Michal Jamry
+"""
 
 
-def jo():
+def jo_man():
+    """
+    Funkcja jo_man
+    :return:
+    """
     print("elo")
     return True

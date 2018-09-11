@@ -7,3 +7,4 @@ build
 __pycache__
 .tox
 .pytest_cache
+.mypy_cache
