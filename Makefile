@@ -1,6 +1,9 @@
 all:
 	python setup.py sdist bdist_wheel
 
+test:
+	tox
+
 upload_test:
 	twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 
