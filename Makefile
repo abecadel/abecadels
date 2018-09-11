@@ -17,4 +17,4 @@ install:
 	pip install abecadels
 
 clean:
-	rm -rf build dist Abecadels.egg-info
+	rm -rf build dist Abecadels.egg-info .tox .pytest_cache
