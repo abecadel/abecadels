@@ -2,14 +2,15 @@
 #
 # Copyright (C) 2018 Michal Jamry
 
+
+from setuptools import setup, find_packages
+
 INSTALL_REQUIRES = [
     'numpy>=1.9.3',
     'scipy>=0.14.0',
     'pandas>=0.15.2',
     'matplotlib>=1.4.3',
 ]
-
-from setuptools import setup, find_packages
 
 setup(
     name='Abecadels',

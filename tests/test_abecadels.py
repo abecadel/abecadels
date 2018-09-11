@@ -4,5 +4,6 @@
 
 import abecadels as abc
 
+
 def test_one():
-    assert abc.jo() == True
+    assert(abc.jo() is True)
