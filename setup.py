@@ -9,11 +9,11 @@ INSTALL_REQUIRES = [
     'matplotlib>=1.4.3',
 ]
 
-from distutils.core import setup
+import setuptools
 
-setup(
+setuptools.setup(
     name='Abecadels',
-    version='0.1dev',
+    version='0.2predev',
     packages=['abecadels'],
     license='MIT',
     description='',
