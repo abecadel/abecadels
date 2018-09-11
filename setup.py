@@ -9,15 +9,16 @@ INSTALL_REQUIRES = [
     'matplotlib>=1.4.3',
 ]
 
-import setuptools
+from setuptools import setup, find_packages
 
-setuptools.setup(
+setup(
     name='Abecadels',
     version='0.2predev',
-    packages=['abecadels'],
+    packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     license='MIT',
     description='',
     long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     author='https://github.com/abecadel',
     url='https://github.com/abecadel/abecadels',
     download_url='https://github.com/abecadel/abecadels',
