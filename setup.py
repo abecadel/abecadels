@@ -6,10 +6,15 @@
 from setuptools import setup, find_packages
 
 INSTALL_REQUIRES = [
-    'numpy>=1.9.3',
-    'scipy>=0.14.0',
-    'pandas>=0.15.2',
-    'matplotlib>=1.4.3',
+    'numpy',
+    'scipy',
+    'pandas',
+    'matplotlib',
+    'sklearn',
+    'tensorflow',
+    'keras',
+    'seaborn',
+    'eli5'
 ]
 
 setup(

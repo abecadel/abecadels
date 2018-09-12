@@ -1,4 +1,6 @@
-all:
+all: build
+
+build:
 	python setup.py sdist bdist_wheel
 
 test:
@@ -17,4 +19,4 @@ install:
 	pip install abecadels
 
 clean:
-	rm -rf build dist Abecadels.egg-info .tox .pytest_cache .mypy_cache
+	rm -rf build dist Abecadels.egg-info .tox .pytest_cache .mypy_cache MANIFEST
